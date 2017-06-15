@@ -132,7 +132,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-/*------ GRAT FOOD -----*/
+/*------ FOOD -----*/
 
 .food{
 	background-image: url(../img/bg-quote.jpg);
@@ -167,4 +167,70 @@ h1,h2,h3,h4,h5,h6{
 .boton-food:hover{
 	background-color:  #C2B49A;
     border: 1px solid #C2B49A;	
+}
+
+
+
+/*--------BUY ---------*/
+
+.buy{
+    background-color: #1A1A1A;
+    padding: 30px 0;
+}
+
+.buy1{
+    font-size: 26px;
+    font-weight: 200;
+    color: white;
+}
+
+.buy:hover{
+    color: white;
+    background-color: #C2B49A;
+    -webkit-transition: all .2s ease-in-out; /*transición cambio color*/
+    -o-transition: all .2s ease-in-out; /*transición cambio color*/
+    transition: all .2s ease-in-out;  /*transición cambio color*/
+}
+
+/*------ FOOTER -------*/
+
+.foot{
+    background-image: url(../img/bg-footer.jpg);
+    color: white;   
+    padding: 100px 0 20px 0;    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.foot1{
+    padding-bottom: 20px;
+}
+
+.foot1 h4{
+    font-size: 26px;
+    padding-bottom: 4px;
+    opacity: 0.9;   
+}
+
+.foot1 p{
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.sociales-footer{
+    padding: 80px 0 40px 0;
+}
+
+.sociales-footer i{
+    color: white;
+    opacity: 0.9;
+}
+
+.footer-final{
+    padding: 20px 0 0 0;    
+    font-weight: 200;
+}
+
+.footer-final p{
+    font-size: 16px;
 }
