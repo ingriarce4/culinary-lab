@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+
+
+/*----- HEADER --------*/
+
+.header{
+	background-image: url(../img/bg-header.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+
+.navb-default{
+	background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navb-default .navb-nav>li>a {
+    color: #FFF;
+}
+
+
+.navb-default .navb-nav>li>a:focus, 
+.navb-default .navb-nav>li>a:hover {
+    color: #BFBFBF;
+}
+
+
+/* imagen banner */
+.savory-culinary{
+	margin-top: 100px;
+}
+
+.savory-culinary img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
+/* down */
+.savory-down{
+	padding-top: 170px;
+}
+
+.circul-down{
+	font-size: 30px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    letter-spacing: normal;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.circul-down:hover,
+.circul-down i:hover{
+    color: #BFBFBF;
+    border-color: #BFBFBF;
+}
+
+
+/*----- SECTION VALUES -----*/
+
+.values{
+	padding: 100px 0;
+}
+
+.titulo-value{
+	text-align: center;
+}
+
+.hora{
+    max-width: 150px;
+    height: 2px;
+    margin-left: 43.3%;
+    border-top: 1px solid #C2B49A;
+    border-bottom: 1px solid #C2B49A;
+}
+
+.title-value h1{
+	font-size: 50px;
+}
+
+.title-value p{
+	font-size: 18px;
+	font-weight: 200;
+	padding-bottom: 20px;	
+}
+
+
+/*CIRCULO*/
+.circul-icono i.fa {
+    font-size: 30px;
+    line-height: 70px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 3px solid #222;
+    border-radius: 100%;    
+}
+
+.listvalu h3{
+	font-size: 28px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.listvalu li{
+	line-height: 1.5;
+	font-size: 16px;
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+.listvalu li em{
+	padding-left: 10px;
+}
+
+
+/*------ GRAT FOOD -----*/
+
+.food{
+	background-image: url(../img/bg-quote.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+	padding: 300px 0;
+	text-align: center;
+    background-attachment: fixed;
+
+}
+
+.frase-food{
+    font-size: 40px;
+    line-height: 42px;
+    color: white;
+    font-weight: 200;
+}    
+
+.boton-food{
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 0;
+    font-weight: 900;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-size: 16px;
+}
+
+.boton-food:hover{
+	background-color:  #C2B49A;
+    border: 1px solid #C2B49A;	
+}

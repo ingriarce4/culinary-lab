@@ -1,0 +1,24 @@
+@media (min-width: 1px) and (max-width: 425px){
+	#intro{
+ 	padding-top: 30%;
+ }
+ 	.cosita{
+ 		margin-top: 20px;
+ 	}
+
+ 	.fourth-section{
+ 		height: 100vh;
+ 	}
+
+ 	.grupo{
+ 		padding-left: 3%;
+ 	}
+
+ 	.seccion-precio button{
+	margin-bottom: 5%;
+	}
+
+ 	.pie{
+	padding: 20% 0;
+	}
+}
